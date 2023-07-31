@@ -34,9 +34,9 @@ const ProductItem = () => {
 												</div>
                                                 <p className="card-title">{product}</p>
                                                 <p className="card-price">{price}</p>
-                                                <div className="wishlist-wrapper">
+                                                {/* <div className="wishlist-wrapper">
                                                     <button className="wishlist" onClick={() => { dispatch(addToWishlist(value)) }}> Add to Wishlist </button>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
