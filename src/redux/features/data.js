@@ -64,27 +64,25 @@ export const counterSlice = createSlice({
   },
   reducers: {
     filter: (state, action) => {
-      // console.log(action);
-      // console.log(state.value);
+      
       const { payload } = action;
+      console.log(payload);
       debugger;
       switch (payload.type) {
         case "filter":
           const filters = state.value.filterData.length===0 ? state.value.data.map((currData) => {
-            //   console.log(currData);
+              console.log(currData);
             if (action.payload.value === currData.filter) {
               return { ...currData, visible: true };
             } else {
               return { ...currData, visible: false };
             }
           }):state.value.filterData.filter(currData => payload === currData.filter);
-          console.log(filters);
+          console.log(filters,15);
           state.value.data = filters;
           break;
         case "category":
-          // action.payload = ['zara','wrong'];
           const categories = state.value.filterData.length === 0 ?state.value.data.map((currData) => {
-            // in this function we will find all the brands selected present in the data ad show them visible as true
             if (
               action.payload.value.find(
                 (category) => category === currData.category
@@ -99,9 +97,9 @@ export const counterSlice = createSlice({
           state.value.data = categories;
           break;
         case "brand":
-          // action.payload = ['zara','wrong'];
+          console.log(state.value.data, "name");
           const brands = state.value.filterData.length === 0 ?state.value.data.map((currData) => {
-            // in this function we will find all the brands selected present in the data ad show them visible as true
+      
             if (
               action.payload.value.find((brand) => brand === currData.pname)
             ) {
@@ -109,6 +107,7 @@ export const counterSlice = createSlice({
             } else {
               return { ...currData, visible: false };
             }
+
           }): state.value.filterData.filter(currData => payload === currData.pname) ;
           console.log(brands);
           state.value.data = brands;
@@ -118,20 +117,14 @@ export const counterSlice = createSlice({
           break;
       }
 
-      // action.payload will contain the value that should be used to filter the data.
     },
     addToWishlist: (state, action) => {
-      // action.payload.id will be the product that should be added from state.value
-      // state.wishlist = state.wishlist.push(action.payload)
+    
       const abc = state.value.wishlist;
 	  console.log(abc);
 	  console.log([...abc,action.payload]);
       state.value.wishlist = [...abc,action.payload];
-      // const wishlistedData = state.value.find(({id})=> id === action.payload )
-      // console.log(wishlistedData);
-      // let newData = state.value.wishlist;
-      // newData.push(wishlistedData)
-      // state.wishlist = newData;
+     
     },
     removeFromWishList: (state, action) => {
       const wishlistedData = state.value.wishlist.filter(
@@ -142,15 +135,10 @@ export const counterSlice = createSlice({
 
     },
     addToCart: (state, action) => {
-      // action.payload.id will be the product that should be added from state.value
-      // state.wishlist = state.wishlist.push(action.payload)
+     
       const abc = state.value.cart;
       state.cart = abc.push(action.payload);
-      // const wishlistedData = state.value.find(({id})=> id === action.payload )
-      // console.log(wishlistedData);
-      // let newData = state.value.wishlist;
-      // newData.push(wishlistedData)
-      // state.wishlist = newData;
+      
     },
     removeFromCart: (state, action) => {
       const cartData = state.value.cart.filter(({ id }) => id !== action.payload.id);
@@ -162,7 +150,6 @@ export const counterSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const {
   incrementByAmount,
   filter,

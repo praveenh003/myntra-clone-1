@@ -5,16 +5,11 @@ import style from "./Modal.css";
 import Cards from "./Cards.css";
 import { NavLink } from "react-router-dom";
 
-// function closeme(){
-//   // alert("close me")
-//   var ele = document.getElementById('modalwrapper');
-//   ele.style.display = "none";
-// }
+
 
 const Modal = () => {
   const wishlistData = useSelector((state) => state.appData.value.wishlist);
   const dispatch = useDispatch();
-  //  removeFromWishList
   return (
     <>
       <div className="modal-wrapper" id="modalwrapper">
@@ -33,9 +28,7 @@ const Modal = () => {
                       <NavLink to={linkto}>
                         <img src={imgscr} alt="" className="inner-product-image" />
                       </NavLink>
-                      {/* <div className="slide"></div> */}
-                      {/* <div class="slide"></div>
-                                      <div class="slide"></div> */}
+                     
                     </div>
                     <div className="inner-card-info">
                       <h3 className="inner-card-category">{pname}</h3>
@@ -68,7 +61,6 @@ const Modal = () => {
                 </div>
               ) : null;
             })}
-            {/* {JSON.stringify(wishlistData, 3, 3)} */}
           </div>
         </div>
 	   </div>

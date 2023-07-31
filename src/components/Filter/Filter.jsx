@@ -6,9 +6,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { filter } from "../../redux/features/data";
 
 const Filter = () => {
-//   const filterData = useSelector((state) => state.appData.filters);
-//   const categoryData = useSelector((state) => state.appData.categories);
-//   const brandData = useSelector((state) => state.appData.brands);
 const [brands, setBrands] = useState([]);
 const [categories, setCategories] = useState([]);
 
@@ -84,31 +81,21 @@ const selectCategory = (category) => {
                 type="checkbox"
                 onClick={() => {
 				   selectCategory('shirt')
-				//   dispatch(filter({type: 'brand', value: brands}))
 				  }
 				  }
               />
-              <label>Shirts</label>
+              <label>Tshirts</label>
               <br />
               <input
                 type="checkbox"
                 onClick={() => {
 				   selectCategory('sleepShirt')
-				//   dispatch(filter({type: 'brand', value: brands}))
 				  }
 				  }
               />
-              <label>Sleep Shirts</label>
+              <label>Lounge Shirts</label>
               <br />
-              <input
-                type="checkbox"
-				onClick={() => {
-				   selectCategory('dogShirt')
-				//   dispatch(filter({type: 'brand', value: brands}))
-				  }
-				  }
-              />
-              <label>Dog shirts</label>
+              
             </div>
           </div>
         </div>
@@ -118,41 +105,52 @@ const selectCategory = (category) => {
             <h3>Brands</h3>
             <div className="label-space">
               <input type="checkbox" onClick={() => {
-				//   debugger
-				  selectBrand('zara')
-				//   dispatch(filter({type: 'brand', value: brands}))
-				  }
-				  } />
-              <label>Zara</label>
-              <br />
-              <input type="checkbox" onClick={() => {
-				   selectBrand('parx')
-				//   dispatch(filter({type: 'brand', value: brands}))
-				  }
-				  } />
-              <label>Parx</label>
-              <br />
-			  <input type="checkbox" onClick={() => {
-				   selectBrand('roadster')
-				//   dispatch(filter({type: 'brand', value: brands}))
+				  selectBrand('roadster')
 				  }
 				  } />
               <label>Roadster</label>
               <br />
               <input type="checkbox" onClick={() => {
-				   selectBrand('harvard')
-				//   dispatch(filter({type: 'brand', value: brands}))
+				   selectBrand('Friskers')
 				  }
 				  } />
-              <label>Harvard</label>
+              <label>Friskers</label>
               <br />
 			  <input type="checkbox" onClick={() => {
-				   selectBrand('wrong')
-				//   dispatch(filter({type: 'brand', value: brands}))
+				   selectBrand('HRX')
 				  }
 				  } />
-              <label>Wrogn</label>
+              <label>HRX</label>
               <br />
+              <input type="checkbox" onClick={() => {
+				   selectBrand('U.S.Polo Assn')
+				  }
+				  } />
+              <label>U.S.Polo Assn</label>
+              <br />
+			  <input type="checkbox" onClick={() => {
+				   selectBrand('wrogn')
+				  }
+				  } />
+              <label>WROGN</label>
+              <br />
+              <input type="checkbox" onClick={() => {
+				   selectBrand('Tommy Hilfiger')
+				  }
+				  } />
+              <label>Tommy Hilfiger</label>
+              <br />
+              <input type="checkbox" onClick={() => {
+				   selectBrand('Jack & Jones')
+				  }
+				  } />
+              <label>Jack & Jones</label>
+              <br/>
+              <input type="checkbox" onClick={() => {
+				   selectBrand('HERE&NOW')
+				  }
+				  } />
+              <label>HERE&NOW</label>
             </div>
           </div>
         </div>

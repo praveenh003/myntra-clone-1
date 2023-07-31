@@ -22,23 +22,14 @@ const Cart = () => {
 									<div className="card-wrapper">
 										<div className="slider">
 											<img src={imgscr} alt="" className="product-image" />
-											{/* <div className="slide"></div> */}
-											{/* <div class="slide"></div>
-									<div class="slide"></div> */}
+											
 										</div>
 										<div className="card-info">
 											<h3 className="inner-card-category">{pname}</h3>
 											<p className="inner-card-title">{product}</p>
 											<p className="inner-card-price">{price}</p>
 											<div className="wishlist-wrapper">
-												{/* <button
-													className="wishlist"
-													onClick={() => {
-														// dispatch(addToCheckout(value));
-													}}
-												>
-													Add to Cart
-												</button> */}
+												
 												<button
 													className="wishlist"
 													onClick={() => {

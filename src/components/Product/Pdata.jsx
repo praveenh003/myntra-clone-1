@@ -1,7 +1,7 @@
 const Pdata = [
     {
         id: 1,
-        pname: "zara",
+        pname: "ADIDAS",
         product: "slim casual shirt",
         filter: "men",
         imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6849350/2019/2/4/637626cc-565d-4322-98ed-2674cfa4a4281549278244906-Roadster-Men-Blue-Regular-Fit-Checked-Casual-Shirt-378154927-1.jpg",
@@ -49,7 +49,7 @@ const Pdata = [
     },
     {
         id: 4,
-        pname: "roadster",
+        pname: "Poul Jordan",
         product: "slim fat casual shirt",
         filter: "men",
         imgscr: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2016/9/15/11473928353466-Roadster-Men-Black-Regular-Fit-Checked-Casual-Shirt-4501473928353310-1.jpg",
@@ -84,7 +84,7 @@ const Pdata = [
     },
     {
         id: 6,
-        pname: "parx",
+        pname: "MILDIN",
         product: "oversized cotton shirt",
         filter: "boys",
         imgscr: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14801768/2021/12/17/07b6bf7a-3499-4d5a-aeb0-2c4e1997ef561639740587223-YK-Boys-Red-Solid-Pure-Cotton-Opaque-Casual-Shirt-1591639740-1.jpg",
@@ -116,7 +116,7 @@ const Pdata = [
     },
     {
         id: 8,
-        pname: "zara",
+        pname: "STONEBERG",
         product: "semi-sheer casual shirt",
         filter: "girls",
         imgscr: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15876846/2021/10/20/1063e93f-0949-4ce1-a1e8-ee55e53593241634727742651PepeJeansGirlsBlueOpaqueCasualShirt1.jpg",
@@ -126,118 +126,6 @@ const Pdata = [
         price: "Rs 599",
         visible: true,
         category: "sleepShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 9,
-        pname: "roadster",
-        product: "solid casual shirt",
-        filter: "boys",
-        imgscr: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14082954/2021/7/7/cf2af15c-b1b6-4b40-8272-667fdc7342451625657481271IndianTerrainBoysPinkPureCottonPrintedCasualShirt1.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14082954/2021/7/7/e1447d71-80d8-4ffa-b02c-e004a8ad8bbe1625657481513IndianTerrainBoysPinkPureCottonPrintedCasualShirt2.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14082954/2021/7/7/db43ff4c-5a6b-4925-9724-3d2df943f1141625657481807IndianTerrainBoysPinkPureCottonPrintedCasualShirt5.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14082954/2021/7/7/ea0cc542-f671-4a4d-bc2b-2352d11047361625657481591IndianTerrainBoysPinkPureCottonPrintedCasualShirt3.jpg",
-        price: "Rs 623",
-        visible: true,
-        category: "dogShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 10,
-        pname: "harvard",
-        product: "regular fit casual shirt",
-        filter: "women",
-        imgscr: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16957408/2022/1/28/0cfc9a8c-bea8-4d45-b23c-0c6b343706061643343225264Checkedshirt1.jpg",
-        img2:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16957408/2022/1/28/385ea3af-3859-4b72-83cc-269a2ec03c301643343225252Checkedshirt2.jpg",
-        img3:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16957408/2022/1/28/c9ec7457-9bdd-43ba-9f54-65b87e6e83d11643343224742Checkedshirt3.jpg",
-        img4:"https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16957408/2022/1/28/e1c9eff1-718f-4511-9153-c57bbbf8e27c1643343224730Checkedshirt4.jpg",
-        price: "Rs 459",
-        visible: true,
-        category: "sleepShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 11,
-        pname: "wrogn",
-        product: "check hooded casual shirt",
-        filter: "girls",
-        imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15198510/2021/8/19/7832e213-2231-44d3-8a36-0fe4f0e3862c1629366195385Oversizedviscose-blendshirt1.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15198510/2021/8/19/619186b9-564d-4f09-bfdc-1f3bba9b882b1629366195228Oversizedviscose-blendshirt2.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15198510/2021/8/19/cbc0e41b-61fd-4f6c-830b-27b182c9226d1629366194985Oversizedviscose-blendshirt3.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15198510/2021/8/19/714ca238-bb80-4ff3-b7c1-a001930f2a131629366195103Oversizedviscose-blendshirt4.jpg",
-        price: "Rs 899",
-        visible: true,
-        category: "dogShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 12,
-        pname: "parx",
-        product: "boys casual shirt",
-        filter: "boys",
-        imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15263498/2022/1/25/99b198ce-e3e3-431d-8087-8208a48e8bb21643116090852-YK-Boys-Black--Grey-Geometric-Printed-Casual-Shirt-555164311-1.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15263498/2022/1/25/5f658adf-bd73-45b6-82d5-0941149802801643116090844-YK-Boys-Black--Grey-Geometric-Printed-Casual-Shirt-555164311-2.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15263498/2022/1/25/a8aa111b-6152-4d2f-986d-7a14fc5d45ac1643116090821-YK-Boys-Black--Grey-Geometric-Printed-Casual-Shirt-555164311-4.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15263498/2022/1/25/a2f806d8-a899-4b07-b2b9-8f2eeac462b41643116090809-YK-Boys-Black--Grey-Geometric-Printed-Casual-Shirt-555164311-5.jpg",
-        price: "Rs 699",
-        visible: true,
-        category: "dogShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 13,
-        pname: "zara",
-        product: "pure cotton casual shirt",
-        filter: "boys",
-        imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14101740/2022/2/4/66a36c83-d32d-4c9d-83a3-745f5a47616d1643968640507-US-Polo-Assn-Kids-Boys-White-Regular-Fit-Printed-Casual-Shir-1.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14101740/2022/2/4/34eac3dd-1589-450c-ab6c-e691a40c45091643968640498-US-Polo-Assn-Kids-Boys-White-Regular-Fit-Printed-Casual-Shir-2.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14101740/2022/2/4/cd910e56-bc98-4cb4-9037-ca43fc739ea71643968640488-US-Polo-Assn-Kids-Boys-White-Regular-Fit-Printed-Casual-Shir-3.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14101740/2022/2/4/506946f1-09d7-4589-a95f-79f1863ab8121643968640453-US-Polo-Assn-Kids-Boys-White-Regular-Fit-Printed-Casual-Shir-6.jpg",
-        price: "Rs 899",
-        visible: true,
-        category: "shirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 14,
-        pname: "zara",
-        product: "casual shirt",
-        filter: "women",
-        imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17178684/2022/2/17/0626a408-916b-4cbe-93fc-e378d97547401645075676736GANTWomenCream-ColouredFloralCasualShirt1.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17178684/2022/2/17/663b1163-c8bc-4413-84db-0d86bf83592e1645075676647GANTWomenCream-ColouredFloralCasualShirt2.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17178684/2022/2/17/d5873855-cf43-4bd1-8fc1-86bd5cacc4c21645075676533GANTWomenCream-ColouredFloralCasualShirt3.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17178684/2022/2/17/12412ee0-fb7c-447d-acb7-ce455b823f551645075676284GANTWomenCream-ColouredFloralCasualShirt4.jpg",
-        price: "Rs 599",
-        visible: true,
-        category: "dogShirt",
-        size: [34, 36, 42],
-        description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
-    
-    },
-    {
-        id: 15,
-        pname: "roadster",
-        product: "cotton chambary casual shirt",
-        filter: "men",
-        imgscr: "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17187540/2022/2/17/6405d4b3-1956-4f04-84a7-3e51af2e32aa1645109150192GANTMenWhitePrintedCasualShirt2.jpg",
-        img2:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17187540/2022/2/17/2ae2a154-e5b0-41de-a839-08d3ad7b9c351645109150348GANTMenWhitePrintedCasualShirt1.jpg",
-        img3:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17187540/2022/2/17/06f30541-4140-49be-b1a4-ef37e5af16581645109150031GANTMenWhitePrintedCasualShirt3.jpg",
-        img4:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17187540/2022/2/17/8c6332f7-6834-469b-9a97-92ee8481e3da1645109149753GANTMenWhitePrintedCasualShirt4.jpg",
-        price: "Rs 719",
-        visible: true,
-        category: "shirt",
         size: [34, 36, 42],
         description: "Amazing clothing you would love the asthectic look and feel of the fabric and will enjoy the time you have it on !"
     
